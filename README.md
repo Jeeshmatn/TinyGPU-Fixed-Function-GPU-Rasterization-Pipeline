@@ -1,4 +1,4 @@
-# TinyGPU — Fixed-Function GPU Rasterization Pipeline
+# TinyGPU - Fixed-Function GPU Rasterization Pipeline
 
 > A hardware implementation of a triangle rasterization pipeline in Verilog,  
 > implementing Pineda's edge function algorithm on a 64×64 pixel framebuffer.  
