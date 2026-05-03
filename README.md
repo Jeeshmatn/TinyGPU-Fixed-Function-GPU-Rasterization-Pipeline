@@ -92,14 +92,14 @@ make run_100
 
 ### Test Categories
 
-| Category | Count | Description |
-|----------|-------|-------------|
-| Small triangles | 20 | Vertices in range 5-30 |
-| Large triangles | 20 | Vertices spanning full 64×64 |
-| Flat-bottom | 20 | Two vertices share same Y |
-| Flat-top | 20 | Two vertices share same Y |
-| Edge/corner | 20 | Degenerate, boundary, single pixel |
-| **Total** | **100** | **100/100 PASS** |
+| Category        | Count   | Description                        |
+|-----------------|---------|------------------------------------|
+| Small triangles | 20      | Vertices in range 5-30             |
+| Large triangles | 20      | Vertices spanning full 64×64       |
+| Flat-bottom     | 20      | Two vertices share same Y          |
+| Flat-top        | 20      | Two vertices share same Y          |
+| Edge/corner     | 20      | Degenerate, boundary, single pixel |
+| **Total**       | **100** | **100/100 PASS**                   |
 
 ### Result
 
