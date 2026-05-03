@@ -212,7 +212,7 @@ Example: 0xE3 = 1110_0011
 
 ## About
 
-Built as a personal RTL design project to transition from verification to design.  
+Built as a personal RTL design project.
 Inspired by a LinkedIn post about a software engineer building a GPU from scratch —  
 decided to build the hardware version.
 
@@ -223,10 +223,10 @@ decided to build the hardware version.
 
 ## Tools Used
 
-| Tool | Purpose |
-|------|---------|
-| Cadence Xcelium | RTL simulation |
-| SimVision | Waveform viewing |
-| Python 3 | Golden reference + test generation |
-| OpenLane | RTL-to-GDS synthesis | -future 
-| Git | Version control |
+| Tool            | Purpose                             |
+|-----------------|-------------------------------------|
+| Cadence Xcelium | RTL simulation                      |
+| SimVision       | Waveform viewing                    |
+| Python 3        | Golden reference + test generation  |
+| OpenLane        | RTL-to-GDS synthesis                | -future 
+| Git             | Version control                     |
