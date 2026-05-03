@@ -65,17 +65,16 @@ For a **clockwise** triangle in screen coordinates (Y increases downward):
 ## FSM State Diagram
 ```
 
-| State | Action |
-|-------|--------|
-| `IDLE` | Wait for start pulse |
-| `INIT` | Register bounding box from vertex inputs |
-| `INIT_WAIT` | Load cur_x/cur_y from bounding box registers |
-| `TEST` | Evaluate px_inside combinationally, decide next state |
-| `WRITE_PIXEL` | Assert pixel_valid with coordinates |
-| `NEXT_COL` | Increment cur_x |
-| `NEXT_ROW` | Increment cur_y |
-| `SCAN_ROW` | Reset cur_x to x_min for new row |
-| `DONE_ST` | Assert done signal |
+
+`IDLE`          -Wait for start pulse 
+ `INIT`        - Register bounding box from vertex inputs 
+ `INIT_WAIT`   - Load cur_x/cur_y from bounding box registers 
+ `TEST`        - Evaluate px_inside combinationally, decide next state 
+ `WRITE_PIXEL` - Assert pixel_valid with coordinates                   
+ `NEXT_COL`    - Increment cur_x                                      
+ `NEXT_ROW`    - Increment cur_y 
+ `SCAN_ROW`    - Reset cur_x to x_min for new row 
+ `DONE_ST`     - Assert done signal                               
 
 ---
 
